@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: ['http://localhost:5173','https://fe-e-commerce-admin-panel.vercel.app'],
+  origin: ['http://localhost:5173','https://fe-e-commerce-admin-panel.vercel.app','https://fe-e-commerce-admin-panel-boyg0q5nb-preetimoos-projects.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
 }));
